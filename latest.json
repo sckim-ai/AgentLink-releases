@@ -1,11 +1,11 @@
 {
-  "version": "1.5.0",
-  "notes": "배포 카탈로그 관리, 번들 에이전트 신원 수정",
-  "pub_date": "2026-09-09T02:52:41.004Z",
+  "version": "1.5.1",
+  "notes": "v1.5.1",
+  "pub_date": "2026-09-09T13:43:24.198Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnlHcFc0VFA4MXJjT01xNzNsazFvZHZSZkpMV1luWlhCNjJJaSs4QzBoNmdDOXgxU1BRams4VTROeHdxK3dNRUx3Y21SY2VDbkVVVHVNNjlUNFFhV3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTIyMzQ5CWZpbGU6QWdlbnRMaW5rXzEuNS4wX3g2NC1zZXR1cC5leGUKa1NPMjhTZU5zT3E1UnU0QllpVXlLd3g5RzM2TzM3bHQrM2p3WEU5UU1qZUlnNmhieVZ0RzNpZm5aOVBPYUZUd05QMjNYanpJV25ISzV3dG9oejFQQkE9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.0/AgentLink_1.5.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnloK3p1K3FXUk5ES1NoakdZZG1jUWloNTJDaGFBNDhWT1BGdE5Zb054RTNqbGFrekJTNlVUTFZZNlZsUlJmUVBIM1dCWElRb094OUNyUWNMTkhCaXdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4OTYxMzk3CWZpbGU6QWdlbnRMaW5rXzEuNS4xX3g2NC1zZXR1cC5leGUKNjdiVmt4bFArSnk0WUZBQ1A0S3U3Q21ZWDM2RXdramlnTnNaVmxqWHU3bFZkOUtna2ZaZEt0R1RHZHI1R3lya2s3aDFZY0tKVXVWS3NvdzNMN2ZCRGc9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.1/AgentLink_1.5.1_x64-setup.exe"
     }
   }
 }
