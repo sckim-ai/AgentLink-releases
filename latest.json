@@ -1,11 +1,11 @@
 {
-  "version": "1.5.7",
-  "notes": "v1.5.7",
-  "pub_date": "2026-09-11T00:25:29.018Z",
+  "version": "1.5.8",
+  "notes": "v1.5.8",
+  "pub_date": "2026-09-11T06:03:09.113Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjVQbC9uRTRPNllPSXZQTGJISFlyQzBCeXJvWUNScnZwK2JGNkFyUnl4bmEvYVpvTjR3T2FtbnFmRzJqMEJKd2dNU0luQkpVaURmeUhlQTJMOThSTkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDg2MzIzCWZpbGU6QWdlbnRMaW5rXzEuNS43X3g2NC1zZXR1cC5leGUKekgwOFZvdGRUaTF4ZjVPQzNYVVAwTStZOXhEMDQ1WTZIRFZJREo5WTk5MGV4NEx4Q1B3RnRRTjg3aCtyVndiaHhoNEFHczh2ZVVIWnF5dEd4ZTZqRFE9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.7/AgentLink_1.5.7_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjNnUm9PemdIRlRsUXVwRE1BYzA2NmFyRXl2ZE9oSjFjUkg2aVc3YklaYWtuWVZSYldhd1B5RTBkL1QzZU9UTXdydVlDNGEveEZjckV2UUpJOFh6Umd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MTA2NTgxCWZpbGU6QWdlbnRMaW5rXzEuNS44X3g2NC1zZXR1cC5leGUKSHlkQi8vTDhJQ01RV0NReTZtVUw1YlRTNHFmaEpjSjRubDZlRU1idHVBTG9QM1RHbU5UUWtEc3NpT3ZTamVmeVVqYzhvQUg3TTlUak5wMGpjcUdZQVE9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.8/AgentLink_1.5.8_x64-setup.exe"
     }
   }
 }
