@@ -1,11 +1,11 @@
 {
-  "version": "1.5.13",
-  "notes": "v1.5.13",
-  "pub_date": "2026-09-18T07:06:39.450Z",
+  "version": "1.5.14",
+  "notes": "- 설계 대시보드 추가 — 단계, 완성도, 형상, 후보, 추이를 한 화면에 표시하고 형상은 설계가 바뀌면 자동 갱신\n- 아티팩트 패널에서 GLB 3D 모델 보기 (최대 100 MiB, 삼각형 300만 개)\n- 아티팩트 패널에서 JSON은 트리로, CSV·TSV는 표로 보기\n- STEP 등 CAD 교환 파일을 열면 안내 카드 표시\n- 아티팩트 편집 중 저장하지 않은 내용이 다른 파일로 전환한 뒤에도 유지\n- 업데이트 창에 변경 내용 표시\n- 설치본에 포함된 에이전트의 모델 설정을 편집 가능\n- 보안 강화 — 백엔드 접근에 기동 토큰 검사, 암호화 키를 Windows 자격 증명 저장소에 보관, 업로드 파일명·외부 주소 요청 검사, 로그아웃 시 서버 세션 폐기\n- 세션 복제가 실패하면 사유를 알림으로 표시\n- 최근 프로젝트 목록이 표시되지 않던 문제 수정\n- xAI 모델 호출이 400 오류로 실패하던 문제 수정\n- 장면이 없는 GLB 파일에서 뷰어가 멈추던 문제 수정\n- 설계 카드 조회 중 화면이 멈추던 문제 수정\n- 헤더 아이콘을 기능에 맞게 변경, 대시보드 버튼이 비활성인 이유를 툴팁에 표시",
+  "pub_date": "2026-09-21T08:04:25.255Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjEyY1hxZjZRVEI0bDRkVzFOSERva01qaUNXTGFjdGVPNUJrMTZQN3B5NHJOQ1UraTdjSzZCYmszR2JjS2hDblZaNFdkZzVQaU9ZOStodFhYZHg0T3dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzE1MTY0CWZpbGU6QWdlbnRMaW5rXzEuNS4xM194NjQtc2V0dXAuZXhlCkFDYUVyTXJkYm1vRS9mYytmdlNXeWI5Y1E1R2FvQmdnOXI2ekFIbEtmK3ErczhUTkp4SEVSNTJzL2UrRHZKd0hlYWdkU0wxbGs4WlBCNkVqeklvTERRPT0K",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.13/AgentLink_1.5.13_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcndGVEJ2emNvY3NVVkIzaG1NNG1IUmhKaXFDajI0aHoxT0g2NVFIWGN1VlZmYnIzRlZ4YjQySjYyM01qeDRqZ042dlhqVWRUdDlEeUd5UDQzY1liNndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTc3ODU3CWZpbGU6QWdlbnRMaW5rXzEuNS4xNF94NjQtc2V0dXAuZXhlCjdkNSsydHlicDdQOWorcjN2RlgwczhhZXZ4aXJ5M3RYbEUxa0hxWEQ5V1lRSXhkdlhLT3NrMjJ5YkwxYnNwaDU1cXpJdVRUMGlQVFhmUGNXaDRsMUNBPT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.14/AgentLink_1.5.14_x64-setup.exe"
     }
   }
 }
