@@ -1,11 +1,11 @@
 {
-  "version": "1.5.14",
-  "notes": "- 설계 대시보드 추가 — 단계, 완성도, 형상, 후보, 추이를 한 화면에 표시하고 형상은 설계가 바뀌면 자동 갱신\n- 아티팩트 패널에서 GLB 3D 모델 보기 (최대 100 MiB, 삼각형 300만 개)\n- 아티팩트 패널에서 JSON은 트리로, CSV·TSV는 표로 보기\n- STEP 등 CAD 교환 파일을 열면 안내 카드 표시\n- 아티팩트 편집 중 저장하지 않은 내용이 다른 파일로 전환한 뒤에도 유지\n- 업데이트 창에 변경 내용 표시\n- 설치본에 포함된 에이전트의 모델 설정을 편집 가능\n- 보안 강화 — 백엔드 접근에 기동 토큰 검사, 암호화 키를 Windows 자격 증명 저장소에 보관, 업로드 파일명·외부 주소 요청 검사, 로그아웃 시 서버 세션 폐기\n- 세션 복제가 실패하면 사유를 알림으로 표시\n- 최근 프로젝트 목록이 표시되지 않던 문제 수정\n- xAI 모델 호출이 400 오류로 실패하던 문제 수정\n- 장면이 없는 GLB 파일에서 뷰어가 멈추던 문제 수정\n- 설계 카드 조회 중 화면이 멈추던 문제 수정\n- 헤더 아이콘을 기능에 맞게 변경, 대시보드 버튼이 비활성인 이유를 툴팁에 표시",
-  "pub_date": "2026-09-21T08:04:25.255Z",
+  "version": "1.5.15",
+  "notes": "- 모델 추가 — Claude Opus 5.5, GPT-6 Sol·Luna, xAI Grok 4.7\n- Claude Opus 5.5 호출이 400 오류로 실패하던 문제 수정\n- 가입 승인제 제거 — 가입 후 바로 사용. 가입 시 소속을 입력하고 프로필 화면에서 수정\n- 설계 객체 재연결 — 설계 툴에서 같은 설계를 다시 열어도 카드와 판정이 그대로 이어짐. 끊긴 설계는 대시보드·도크에 표시하고 \"다시 확인\"으로 재연결\n- 이전 세션의 판정을 재연결된 설계 아래에 기록으로 표시\n- 이름만 다른 같은 설계를 같은 설계로 인식 — 기존 카드는 한 번 \"다시 확인\"으로 재연결 필요\n- 이미 유효한 판정이 있으면 설계를 다시 계산하지 않음\n- 업데이트 창을 키우고 변경 내용을 목록으로 표시, 사용자 메뉴에 \"변경 이력\" 추가\n- 빌트인 도구 \"Evidence\"의 표시 이름을 \"도구 호출 기록\"으로 변경\n- 빌트인 도구 Jobs 카테고리 제거 — 장시간 계산은 MCP 서버로 연결\n- 내장 기어 계산기 에이전트 제거\n- 빌더에서 고른 외부 서브에이전트 도구가 생성되지 않던 문제 수정\n- 프롬프트 미리보기의 도구 목록을 실제 실행과 일치\n- 대시보드 형상 이미지를 눌러 크게 보기\n- 대시보드 새로 고침·자동 갱신이 후보·이력·추이를 갱신하지 않던 문제 수정\n- 추이 차트의 값 라벨이 잘리던 문제 수정\n- 한글·공백이 든 경로 링크가 열리지 않던 문제 수정\n- 탐색기에서 공백이 든 경로의 파일 선택이 문서 폴더를 열던 문제 수정\n- 설치본 백엔드 성능 개선 — 모듈을 불러올 때마다 실행 파일을 다시 열지 않음",
+  "pub_date": "2026-09-23T07:02:51.285Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcndGVEJ2emNvY3NVVkIzaG1NNG1IUmhKaXFDajI0aHoxT0g2NVFIWGN1VlZmYnIzRlZ4YjQySjYyM01qeDRqZ042dlhqVWRUdDlEeUd5UDQzY1liNndBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTc3ODU3CWZpbGU6QWdlbnRMaW5rXzEuNS4xNF94NjQtc2V0dXAuZXhlCjdkNSsydHlicDdQOWorcjN2RlgwczhhZXZ4aXJ5M3RYbEUxa0hxWEQ5V1lRSXhkdlhLT3NrMjJ5YkwxYnNwaDU1cXpJdVRUMGlQVFhmUGNXaDRsMUNBPT0K",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.14/AgentLink_1.5.14_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcndDY2FRRWQ0eWU4dmFwRFIyU29laG5TYmlxZGRzVnVNUHdvUE4vM2tURDJLVkY1cG96dDg4YW4raEFQUXgreHRjQnZCbkkxbFJPanZVWXo1NjRSU3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTQ2OTY0CWZpbGU6QWdlbnRMaW5rXzEuNS4xNV94NjQtc2V0dXAuZXhlClFXZTZNRDhIZTJ3ako3a2NEUHI5Yk9LUm14SVhtdVRzSTdzZklybWxGa1JManpQaFNvNFVMeWp2SkF6MnR5VWFITUNVUmJJdEFrOWV3MnlVZDhQTkNnPT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.5.15/AgentLink_1.5.15_x64-setup.exe"
     }
   }
 }
