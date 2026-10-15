@@ -1,11 +1,11 @@
 {
-  "version": "1.7.0",
-  "notes": "- 메모장 추가 — 타이틀바에서 연다. 메모를 에이전트에게 미션으로 보내고 진행 상태와 결과를 메모에 붙인다\n- 번들 에이전트에 CLI판 3종 추가 — Chatbot, Coding Agent, Deep Research를 Claude Code·Codex·Grok CLI로 실행\n- Gear Strength Review를 기본 제공 에이전트에서 제외 — 이미 설치된 것은 남지만 더 이상 업데이트되지 않음\n- 서재 사서 — 기본 등록 컬렉션의 미분류 문서를 모델이 폴더로 분류 제안하고, 검토·승인 뒤 적용. 미분류 문서 수를 서재 버튼 배지로 표시\n- 서재 기본 등록 컬렉션(~/AgentLink/Library) 자동 생성, 문서의 DOI·제목·저자·연도·저널 기록, DOI·URL로 등록 여부 조회\n- Deep Research가 서재를 먼저 찾아보고, 인용한 문헌을 서재에 등록\n- 서재 검색 탭에서 문서 구절과 지식 그래프 항목을 함께 검색. 관리 탭에 추출 작업·타입·변경 이력·벡터 검색 설정\n- LLM 노드와 CLI 노드가 서로를 참가자·peer로 호출, CLI 노드에 위임 지침과 최대 깊이 설정\n- CLI 노드 설정을 LLM 노드와 같은 탭 구성으로 — 시스템 프롬프트·지침 파일·스킬 선택·프롬프트 미리보기·출력 파서·전후 훅\n- CLI 노드(claude·codex·grok)에 시스템 프롬프트 전체 전달, 프롬프트가 바뀌면 새 대화로 시작\n- CLI 노드에서 빌트인 도구 카테고리와 선택한 MCP 서버 도구 사용, 도구 승인 적용\n- CLI 노드(claude·codex)에 첨부 이미지 전달\n- 타이틀바 화면 전환을 왼쪽 칩으로 재배치하고 Ctrl+1~5 단축키 추가. 활성 칩을 다시 누르면 채팅으로 복귀, 실행 중이면 모니터 버튼에 점 표시\n- codex·grok의 MCP 도구 호출 행에 서버·도구 이름 표시, grok 도구의 이중 승인 카드 제거\n- 서재 첫 컬렉션 목록이 늦게 뜨던 문제, 같은 문서가 색인 전에 두 번 등록되던 문제 수정\n- 모니터 지도에서 대화로 이동이 실패하거나 늦던 문제 수정\n- 대화를 연 직후 이후에 추가된 메시지가 사라지던 문제 수정\n- 마크다운 문서의 목차 링크가 이동하지 않던 문제 수정",
-  "pub_date": "2026-10-15T03:38:52.638Z",
+  "version": "1.7.1",
+  "notes": "- AgentLink에서 실행한 명령이 띄운 프로그램(예: Docker Desktop)이 AgentLink 파일을 붙잡아 업데이트 설치가 \"Error opening file for writing\"으로 멈추던 문제 수정\n- 이번 업데이트 설치 중 같은 오류가 나오면 해당 프로그램을 종료한 뒤 \"다시 시도\"를 누른다 — 1.7.1부터는 다시 생기지 않음",
+  "pub_date": "2026-10-15T05:20:19.875Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnlYcXUrV3FmWjNpeWgzRFdRakNOMmRTMjJLQ2NQbGcyY0ttemRHTFU5WEczdkRaN3ZPYkJFeWI3TGF5V1M0bCtUbGhzQ1hFL0ZubVRpWUNWZTRuN0FrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDM1NTEzCWZpbGU6QWdlbnRMaW5rXzEuNy4wX3g2NC1zZXR1cC5leGUKVGY4d3dpV3pmZlRoeXlacVJWeGkyaDgraUR2TkNjbVRwUnRzS3Qwa1ROT0Jad0tZWnE5YU56UVpmMFRsYXd6L3ZxdmMxQXlGNXZuWWhXZTZRZ0FpQWc9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.7.0/AgentLink_1.7.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjZTL0tqWFhDbDQvdjFDMEloL0RnYThRRklpaDZLQjM2d001RGFPc2hWeE9uTGJaNHIwVnljTTVIL1VvLzl3Mzh4em9OaEpmQVdTWlBaR3NSellTM3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQxNjE0CWZpbGU6QWdlbnRMaW5rXzEuNy4xX3g2NC1zZXR1cC5leGUKWU9hQVVTYk44eFFzMS90TWhVd3U3alRlcWhjTGZkUGpJRm9SUC9iT3ZSS1IweTZMNTJBVUhNSjlodnh1cm1FOWs2a0FaR1Y3aWFsSVlHbVI5RTE1Q2c9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.7.1/AgentLink_1.7.1_x64-setup.exe"
     }
   }
 }
