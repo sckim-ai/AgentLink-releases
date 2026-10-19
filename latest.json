@@ -1,11 +1,11 @@
 {
-  "version": "1.7.1",
-  "notes": "- AgentLink에서 실행한 명령이 띄운 프로그램(예: Docker Desktop)이 AgentLink 파일을 붙잡아 업데이트 설치가 \"Error opening file for writing\"으로 멈추던 문제 수정\n- 이번 업데이트 설치 중 같은 오류가 나오면 해당 프로그램을 종료한 뒤 \"다시 시도\"를 누른다 — 1.7.1부터는 다시 생기지 않음",
-  "pub_date": "2026-10-15T05:20:19.875Z",
+  "version": "1.8.0",
+  "notes": "- 화면 녹화 도구 추가 — 에이전트가 AgentLink 창을 녹화·조작해 GIF·MP4로 내보내고, 창의 일부 영역을 PNG로 캡처. 녹화 결과는 채팅에 GIF 카드로 표시\n- 화면 녹화는 기본 꺼짐 — 프로필 › 앱 설정 › \"화면 녹화\"를 켜고 앱을 다시 시작한다. 인코더(ffmpeg)는 첫 내보내기 때 내려받음\n- 서재 사서로 폴더 정리 — 정리 범위를 고르면 분류안을 만들고, 검토·규칙 승인 뒤 이동. 진행 막대, 중단 후 이어하기, 되돌리기 지원\n- 서재 화면에 컬렉션별 사서 채팅 패널 추가 — 정리 규칙과 경로 형식을 대화로 지정 (기본 제공 Librarian 에이전트)\n- 사서가 이미지 등 색인 밖 파일도 정리, 마크다운과 그 안에 넣은 그림은 한 묶음으로 이동, 불필요한 파일은 _보관 폴더로\n- 사진의 촬영일·카메라 정보를 정리 기준으로 사용\n- 탐색기 문서 아이콘에 확장자 표시와 색 구분, 한글 문서 아이콘 변경\n- pptx-deck-builder 스킬 개편 — 디자인 규칙, 수정 절차, 스타일 추출, 레이아웃 검사\n- 앱 업데이트 중 \"Error opening file for writing: …agentlink.exe\"로 설치가 멈추던 문제 수정 — 이 버전으로 올리는 업데이트부터 적용",
+  "pub_date": "2026-10-19T13:44:06.450Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjZTL0tqWFhDbDQvdjFDMEloL0RnYThRRklpaDZLQjM2d001RGFPc2hWeE9uTGJaNHIwVnljTTVIL1VvLzl3Mzh4em9OaEpmQVdTWlBaR3NSellTM3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDQxNjE0CWZpbGU6QWdlbnRMaW5rXzEuNy4xX3g2NC1zZXR1cC5leGUKWU9hQVVTYk44eFFzMS90TWhVd3U3alRlcWhjTGZkUGpJRm9SUC9iT3ZSS1IweTZMNTJBVUhNSjlodnh1cm1FOWs2a0FaR1Y3aWFsSVlHbVI5RTE1Q2c9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.7.1/AgentLink_1.7.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnlPNXRaLzMvek0xdWI2cm9FdzBXUzdhMmF6azhaYXp1dE5TRjVUOHU3U2dVOEI5Zk5XZjdOYXdMaUlXZHlML2FIdWRxakJVaW0wM2JhWTJxSUtES3dRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDE3NDA1CWZpbGU6QWdlbnRMaW5rXzEuOC4wX3g2NC1zZXR1cC5leGUKVFdrQnVVZklsT3NQejZBbDh0NC9IQzFBZUxCYXBRSHhYMEhmaEg0Rld2RjZOV0d2VDh2aExoRUZQc2g0VVY5eTlvcW41RExqR012djRkRFVnZ1psQkE9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.8.0/AgentLink_1.8.0_x64-setup.exe"
     }
   }
 }
