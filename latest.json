@@ -1,11 +1,11 @@
 {
-  "version": "1.9.3",
-  "notes": "- 버그 리포트에 진단 정보 첨부 — 앱 버전·OS, MCP 서버 상태, 사용 중인 모델 제공자, 최근 오류 로그를 함께 보내 원인 확인이 빨라짐. API 키·환경변수·서버 실행 명령은 보내지 않음. 리포트 창 \"진단 정보 첨부\"에서 내용을 미리 보거나 끌 수 있음\n- 등록했지만 연결되지 않은 MCP 서버가 LLM 노드 설정 목록에 보이지 않던 문제 수정 — 목록에서 상태를 보고 바로 연결 가능",
-  "pub_date": "2026-10-23T11:22:46.910Z",
+  "version": "1.9.4",
+  "notes": "- 일부 MCP 서버를 등록하면 MCP 서버 설정 창에서 모든 서버가 \"Not connected\"로 보이고 LLM 노드 도구 목록에서 빠지던 문제 수정 — 도구 입력에 \"값 또는 비어 있음\"(예: 정수 또는 null) 타입을 쓰는 서버. .NET MCP SDK로 만든 서버가 이 형식을 쓴다\n- MCP 도구 시험 실행에서 정수 입력이 문자로 전송되던 문제 수정, \"값 또는 비어 있음\" 타입은 integer | null처럼 표시",
+  "pub_date": "2026-10-23T14:31:48.102Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjl6TTFPMzB2bnZRQWxsVkt1QTZ0S2QrZUZ3S3JVcE9XUW55VDNmdjB1Rmxxa2VCaEdmbXdOK1NxSFI3dXJJZTFnYXRQeWF1bXBQb2xwMGRRVllPS3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU0NTYwCWZpbGU6QWdlbnRMaW5rXzEuOS4zX3g2NC1zZXR1cC5leGUKRTJ3NGZwbE5wbFRhZjQ3bCtVaDlONXVYWmljdGpDL2pVVnFFaldrcE5Xdm9QMHBHYkQwMlZYQ2s5Z3VERndxR3lGZit1dDM3Z2tRMERseUVOazMzQlE9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.3/AgentLink_1.9.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjhybGo4elVPK1VvWXd5SjF5L2Vic0c1b1FPOWd3YmdpZ1Z6Qmc3NkhaZ2ZOaS8wTndxMVBxcDZSanUyd0Y3SnpRVzVhT1poazVrUUxHWkxWUnZFMFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzY1OTAwCWZpbGU6QWdlbnRMaW5rXzEuOS40X3g2NC1zZXR1cC5leGUKWkxGdyttUm83V0tIeG9TSmRiUy9uc05kU3ZxSWhjUDJYK2VJU05qOHlCQlJUaTAzOW11N2NGRGdFNVQ1a0VKcEQ2dU8rbEcrS0tMcVJJVEt1UjlMQUE9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.4/AgentLink_1.9.4_x64-setup.exe"
     }
   }
 }
