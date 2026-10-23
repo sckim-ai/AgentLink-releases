@@ -1,11 +1,11 @@
 {
-  "version": "1.9.0",
-  "notes": "- 음성 입력 추가 — 채팅 입력창 마이크로 말하면 글로 받아씀. OpenAI API 키 또는 Claude 계정 로그인 필요. 프로필 › 설정 › \"음성 입력\"에서 경로 선택\n- 회의 메모 추가 — 회의를 녹음하거나 녹음 파일을 가져오면 받아쓰기·화자 구분·요약을 만든다. 정리본·원본·음성 탭으로 확인하고 화자 이름 변경 가능\n- 가입·로그인 창에서 메일로 받은 코드로 이메일 인증, 코드 재발송\n- 암호 찾기 — 메일로 받은 코드로 새 암호 설정\n- 프로필에서 암호 변경\n- 세션을 바꿔도 입력창에 쓰던 내용과 첨부파일이 남음\n- 시연 영상 스킬 추가 (screen-demo-video) — 화면 녹화본에 단계 바·자막·강조 박스·확대를 넣거나, 녹화가 없으면 채팅 화면 캡처로 작업 과정 영상을 만들어 슬라이드에 삽입\n- pptx-deck-builder 스킬: 그룹 안에 있는 제목 교체, 템플릿 머리를 유지한 슬라이드 복제\n- 실행이 실패하면 채팅에 \"실행 실패\" 행과 사유가 남음. 펼치면 오류 전문\n- 긴 응답을 만드는 중 10분이 지나면 \"request timed out\"으로 실행이 끝나던 문제 수정 — Anthropic·OpenAI·Gemini·xAI·DeepSeek·Qwen·GLM·Kimi·Ollama 모두 응답을 나눠 받음. 시간 초과 시 1회 재시도\n- 긴 세션에서 실행을 시작할 때마다 전체 대화를 다시 요약하던 문제 수정 — 요약은 한 번만 하고 다음 실행은 그 요약에서 이어감\n- 이어지는 실행이 이전 대화를 다시 비용 들여 읽던 문제 수정 (프롬프트 캐시 재사용)\n- 이미지를 여러 장 보는 작업에서 이미지가 1장 늘 때마다 대화 전체를 다시 읽던 문제 수정 — 20장 또는 20 MB를 넘을 때만 정리\n- Gemini 응답 본문이 여러 조각일 때 뒷부분이 잘리던 문제, 인증 만료·요청 한도 오류에서 재로그인·대기 재시도가 동작하지 않던 문제 수정\n- MCP 서버를 연결할 때 서버 프로세스를 두 번 띄우던 문제 수정 — 한 번만 띄움\n- 서재 벡터 검색이 일이 없을 때도 CPU 코어를 점유하던 문제 수정\n- 같은 계정으로 OAuth를 다시 연결해도 계정 목록에 \"만료\"가 남던 문제 수정\n- 사용 중 1–2시간 뒤 로그인이 풀리던 문제 수정\n- 다른 PC에서 로그아웃하면 이 PC도 로그아웃되던 문제 수정\n- docker ps --format, Format-Table 같은 정상 명령이 \"not allowed for safety reasons\"로 거부되던 문제 수정. 디스크 포맷·시스템 종료 명령은 계속 거부\n- 글자가 함께 들어 있는 내용을 붙여넣으면 이미지로 첨부되던 문제 수정\n- 빌더를 닫아도 노드 설정창이 남던 문제 수정\n- 아티팩트 패널을 열거나 닫으면 채팅 스크롤 위치가 바뀌던 문제 수정\n- 첫 응답 전에 보낸 메시지가 바로 표시되지 않던 문제 수정",
-  "pub_date": "2026-10-22T03:13:09.096Z",
+  "version": "1.9.1",
+  "notes": "- 채팅 화면 배율을 100%가 아닌 값(Ctrl+휠)으로 쓰면 긴 대화가 느려지던 문제 수정 — 확대 110%에서 화면 요소 약 10만 개를 한꺼번에 그리던 것을 보이는 부분만 그리도록\n- 채팅 스크롤바를 끄는 동안 대화 일부가 비어 보이거나, 끌어 올렸다 내려와도 방금 본 메시지가 나오지 않던 문제 수정\n- 다른 세션에 갔다 돌아오면 긴 메시지 안의 읽던 위치가 밀리던 문제 수정\n- 배율을 바꾼 직후 스크롤 위치와 상단 고정 영역 클릭이 어긋나던 문제 수정",
+  "pub_date": "2026-10-23T06:15:39.071Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnl0RTlLTEYzK2gxbHFwUHJQWTBsWm5pQmhrSWpma0NXd1BjbDF2NzRSSXorQThCb2JRVWdNb2NlendXQzJDZys3cDl2THQ2OFkxeVppaE5STFRvNVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNjM4NzcwCWZpbGU6QWdlbnRMaW5rXzEuOS4wX3g2NC1zZXR1cC5leGUKSFdzalR5am9TVXd3RWtlazF6WHIyUFNJN05yT0dYdkZSRXhyVkMzMVVKbjc3enROa2wwVmxrRlRhb3BOL3ZzdGNreVRVTVAxN0kvbVRvQ1luTlkrQ2c9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.0/AgentLink_1.9.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjQ0RElTTi9kZ25ZajdHNkFoN0M5RkRCUnhVcnNlYWNJaFAxdHdFL0NwTjRJbzhTbERySTNqZVlKN04yaEJjRld5ekJXSXNpUWlwdWJDZEttQk5uOGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM2MTMyCWZpbGU6QWdlbnRMaW5rXzEuOS4xX3g2NC1zZXR1cC5leGUKckNoMzNHN3E5RytKRGt0ZHl2V3h3VDREUHdWcGY1Sm5tWW1WdVIxMDFtSzFzNlJGUDNibGxXRU45aStTRHFRYjBBSnFjUERVTEFDdVErc0tTZC9lQVE9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.1/AgentLink_1.9.1_x64-setup.exe"
     }
   }
 }
