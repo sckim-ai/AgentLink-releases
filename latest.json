@@ -1,11 +1,11 @@
 {
-  "version": "1.9.2",
-  "notes": "- 일부 MCP 서버를 연결하면 채팅이 매번 \"'list' object has no attribute 'lower'\"로 실패하던 문제 수정 — 도구 입력에 \"값 또는 비어 있음\"(예: 문자열 또는 null) 타입을 쓰는 서버. 모든 모델에서 발생\n- MCP 서버 가져오기에 \"Claude CLI 설정에서\" 추가 — CLI 에이전트가 claude mcp add로 등록한 서버를 빌더 MCP 목록으로 가져옴\n- MCP 서버 가져오기에서 이름 대소문자만 다른 서버(mechnode·MechNode)를 이미 있는 서버로 판정해 중복 등록 방지",
-  "pub_date": "2026-10-23T10:20:57.692Z",
+  "version": "1.9.3",
+  "notes": "- 버그 리포트에 진단 정보 첨부 — 앱 버전·OS, MCP 서버 상태, 사용 중인 모델 제공자, 최근 오류 로그를 함께 보내 원인 확인이 빨라짐. API 키·환경변수·서버 실행 명령은 보내지 않음. 리포트 창 \"진단 정보 첨부\"에서 내용을 미리 보거나 끌 수 있음\n- 등록했지만 연결되지 않은 MCP 서버가 LLM 노드 설정 목록에 보이지 않던 문제 수정 — 목록에서 상태를 보고 바로 연결 가능",
+  "pub_date": "2026-10-23T11:22:46.910Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjhMejVZQlhSYWY0bTBNaU5QclRlRzJsRmx5dmhyZDlDeU1obFpEdU82U3BvNmVsNWFtRVQwZngva1pvaytlRzB2SHNMUk9DMFRKWVNaVG5tWUxYOHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzUwODUxCWZpbGU6QWdlbnRMaW5rXzEuOS4yX3g2NC1zZXR1cC5leGUKWGpzbkxmTW1WRnJBbXBCcWRWZlZTa3lqUHBzdnBxRTliWG1LOW1uTVlRcktUOE16UTNGaW1FcFl1MjdQM2Z3QUxuSE4wZU9VaDI0aHVMMHVnTzhxQ2c9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.2/AgentLink_1.9.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjl6TTFPMzB2bnZRQWxsVkt1QTZ0S2QrZUZ3S3JVcE9XUW55VDNmdjB1Rmxxa2VCaEdmbXdOK1NxSFI3dXJJZTFnYXRQeWF1bXBQb2xwMGRRVllPS3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzU0NTYwCWZpbGU6QWdlbnRMaW5rXzEuOS4zX3g2NC1zZXR1cC5leGUKRTJ3NGZwbE5wbFRhZjQ3bCtVaDlONXVYWmljdGpDL2pVVnFFaldrcE5Xdm9QMHBHYkQwMlZYQ2s5Z3VERndxR3lGZit1dDM3Z2tRMERseUVOazMzQlE9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.3/AgentLink_1.9.3_x64-setup.exe"
     }
   }
 }
