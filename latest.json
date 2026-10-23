@@ -1,11 +1,11 @@
 {
-  "version": "1.9.1",
-  "notes": "- 채팅 화면 배율을 100%가 아닌 값(Ctrl+휠)으로 쓰면 긴 대화가 느려지던 문제 수정 — 확대 110%에서 화면 요소 약 10만 개를 한꺼번에 그리던 것을 보이는 부분만 그리도록\n- 채팅 스크롤바를 끄는 동안 대화 일부가 비어 보이거나, 끌어 올렸다 내려와도 방금 본 메시지가 나오지 않던 문제 수정\n- 다른 세션에 갔다 돌아오면 긴 메시지 안의 읽던 위치가 밀리던 문제 수정\n- 배율을 바꾼 직후 스크롤 위치와 상단 고정 영역 클릭이 어긋나던 문제 수정",
-  "pub_date": "2026-10-23T06:15:39.071Z",
+  "version": "1.9.2",
+  "notes": "- 일부 MCP 서버를 연결하면 채팅이 매번 \"'list' object has no attribute 'lower'\"로 실패하던 문제 수정 — 도구 입력에 \"값 또는 비어 있음\"(예: 문자열 또는 null) 타입을 쓰는 서버. 모든 모델에서 발생\n- MCP 서버 가져오기에 \"Claude CLI 설정에서\" 추가 — CLI 에이전트가 claude mcp add로 등록한 서버를 빌더 MCP 목록으로 가져옴\n- MCP 서버 가져오기에서 이름 대소문자만 다른 서버(mechnode·MechNode)를 이미 있는 서버로 판정해 중복 등록 방지",
+  "pub_date": "2026-10-23T10:20:57.692Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjQ0RElTTi9kZ25ZajdHNkFoN0M5RkRCUnhVcnNlYWNJaFAxdHdFL0NwTjRJbzhTbERySTNqZVlKN04yaEJjRld5ekJXSXNpUWlwdWJDZEttQk5uOGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzM2MTMyCWZpbGU6QWdlbnRMaW5rXzEuOS4xX3g2NC1zZXR1cC5leGUKckNoMzNHN3E5RytKRGt0ZHl2V3h3VDREUHdWcGY1Sm5tWW1WdVIxMDFtSzFzNlJGUDNibGxXRU45aStTRHFRYjBBSnFjUERVTEFDdVErc0tTZC9lQVE9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.1/AgentLink_1.9.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjhMejVZQlhSYWY0bTBNaU5QclRlRzJsRmx5dmhyZDlDeU1obFpEdU82U3BvNmVsNWFtRVQwZngva1pvaytlRzB2SHNMUk9DMFRKWVNaVG5tWUxYOHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzUwODUxCWZpbGU6QWdlbnRMaW5rXzEuOS4yX3g2NC1zZXR1cC5leGUKWGpzbkxmTW1WRnJBbXBCcWRWZlZTa3lqUHBzdnBxRTliWG1LOW1uTVlRcktUOE16UTNGaW1FcFl1MjdQM2Z3QUxuSE4wZU9VaDI0aHVMMHVnTzhxQ2c9PQo=",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.2/AgentLink_1.9.2_x64-setup.exe"
     }
   }
 }
