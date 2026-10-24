@@ -1,11 +1,11 @@
 {
-  "version": "1.9.4",
-  "notes": "- 일부 MCP 서버를 등록하면 MCP 서버 설정 창에서 모든 서버가 \"Not connected\"로 보이고 LLM 노드 도구 목록에서 빠지던 문제 수정 — 도구 입력에 \"값 또는 비어 있음\"(예: 정수 또는 null) 타입을 쓰는 서버. .NET MCP SDK로 만든 서버가 이 형식을 쓴다\n- MCP 도구 시험 실행에서 정수 입력이 문자로 전송되던 문제 수정, \"값 또는 비어 있음\" 타입은 integer | null처럼 표시",
-  "pub_date": "2026-10-23T14:31:48.102Z",
+  "version": "1.10.0",
+  "notes": "- 에이전트가 스킬을 만들고 고치는 도구 추가 (save_skill_file) — 프로젝트 안에서 실행해도 스킬이 제자리에 저장되고 바로 쓸 수 있음. 덮어쓰기 전 내용은 이력에 남고, 전역 스킬은 처음 고칠 때 원본을 보관해 \"원본으로 초기화\" 가능\n- 에이전트가 만들거나 고친 에이전트가 사이드바·빌더·다음 실행에 바로 반영됨. 빌더에서 편집 중이면 덮어쓰지 않고 \"다시 불러오기\"를 안내\n- MCP 도구의 입력 형식(중첩 항목, 목록 안 항목, 선택값)을 모델에 그대로 전달 — 모델이 인자를 틀려 도구 오류를 반복하던 문제 수정\n- 스킬 하나의 설명 형식이 잘못되면 스킬 목록 전체가 실패하던 문제 수정. 형식이 깨진 스킬은 목록에 남고 스킬 관리 창에 원인 표시\n- allowed-tools를 목록 형식으로 쓴 스킬이 노드 스킬 목록에서 빠지던 문제 수정\n- 기본 제공 에이전트를 에이전트가 고치면 \"성공\"이라 하고 반영되지 않던 문제 수정 — 모델 외 변경은 복제 후 수정하라고 안내\n- 에이전트 정의 형식이 잘못되면 검증에서 고칠 방법과 함께 알려 줌. 이전에는 생성은 성공하고 실행·빌더 저장에서 설정이 사라졌음\n- 에이전트의 태그·설명 형식이 잘못되면 사이드바에서 사라지던 문제 수정\n- 숫자나 빈 값이 든 선택 목록을 쓰는 MCP 서버가 있으면 모든 MCP 서버가 끊김으로 보이던 문제 수정\n- MCP 도구가 파일·리소스 링크를 돌려주면 결과가 사라지거나 실행이 실패하던 문제 수정\n- 설계 카드 도구가 입력 형식 오류를 \"id가 이미 있음\"·\"카드 없음\"으로 잘못 안내하던 문제 수정 — 틀린 필드와 올바른 형식을 알려 주고, 오타 필드명은 가까운 이름을 제안",
+  "pub_date": "2026-10-24T05:33:03.381Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjhybGo4elVPK1VvWXd5SjF5L2Vic0c1b1FPOWd3YmdpZ1Z6Qmc3NkhaZ2ZOaS8wTndxMVBxcDZSanUyd0Y3SnpRVzVhT1poazVrUUxHWkxWUnZFMFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNzY1OTAwCWZpbGU6QWdlbnRMaW5rXzEuOS40X3g2NC1zZXR1cC5leGUKWkxGdyttUm83V0tIeG9TSmRiUy9uc05kU3ZxSWhjUDJYK2VJU05qOHlCQlJUaTAzOW11N2NGRGdFNVQ1a0VKcEQ2dU8rbEcrS0tMcVJJVEt1UjlMQUE9PQo=",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.9.4/AgentLink_1.9.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjV6eWkxMWNhbHNWZkdpejFMdnd3OTVoVWxEdTJjQVY5N3QrZ2NQdHRpT3lCTDBHMW94K0hqUjBtNGhIMGtrR1hZdjJOKzA4YXJIYkozWWZDanhSWkFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODE5OTc0CWZpbGU6QWdlbnRMaW5rXzEuMTAuMF94NjQtc2V0dXAuZXhlCm9yYXFUOUlzVFkrTTB0YldzQWJQRVVoc3V5bDFEWVZkaHgvNmRSU296dGlrNkhVendhTzFzTk0wNTh0bnJWZmlZdXAyb3czYWNXcS9DSFd0YUVLWUJnPT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.10.0/AgentLink_1.10.0_x64-setup.exe"
     }
   }
 }
