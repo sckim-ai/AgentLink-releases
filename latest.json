@@ -1,11 +1,11 @@
 {
-  "version": "1.11.1",
-  "notes": "- 채팅 창 상단에 MCP 칩 추가 — 연결된 MCP 서버 상태, 이번 실행의 도구 호출과 소요 시간, 응답 없는 호출을 보여 줌. 끊긴 서버는 팝오버에서 재연결 가능\n- MCP 칩에 CLI 에이전트(Claude·Codex·Grok)가 직접 연결한 MCP 서버와 호출도 표시. MCP를 쓰지 않는 에이전트는 \"MCP 미사용\"과 전역 등록 서버 수를 표시\n- MCP 호출 기록이 실행 기록에 저장되어 새로고침·재시작 뒤에도 남음\n- 채팅 창 상단에 서브에이전트 칩 추가 — 실행·대기·완료·실패·중단 수를 보여 주고, 팝오버에서 해당 메시지로 이동하거나 서브에이전트 워크플로를 열 수 있음\n- LLM 노드 프롬프트 탭에 지침 파일 스위치 추가 — 작업 폴더의 CLAUDE.md·AGENTS.md와 사용자 전역 CLAUDE.md를 파일별로 켜서 넣을 수 있음(기본 꺼짐)\n- 코딩 에이전트 리뷰 개선 — 심각한 지적에는 근거 위치와 실패 사례를 요구하고, 기존 결함은 판정에서 제외. 코더가 지적을 확인해 반박할 수 있고, 같은 단계가 3번 반려되면 접근 방식부터 다시 검토\n- 대화가 길어져 압축될 때 질문 창으로 받은 사용자 결정, 이전 요약 내용, 최종 답변의 결론이 빠지던 문제 수정\n- 부모 실행을 멈추면 손자 서브에이전트까지 정지하고, 정지된 서브에이전트가 실패가 아닌 중단으로 표시됨\n- 서브에이전트 완료·실패 표시가 부모 실행이 끝날 때까지 늦던 문제 수정\n- 질문 바가 나타날 때 전송 직후 진행 줄이 화면 밖으로 가려지던 문제 수정",
-  "pub_date": "2026-10-26T08:03:04.418Z",
+  "version": "1.11.2",
+  "notes": "- 창 상단 버전 옆에 업데이트 상태 표시 — 최신이면 체크, 확인 중·확인 실패도 아이콘으로 보임\n- 버전을 누르면 업데이트 창이 열림 — 마지막 확인 시각, 업데이트 확인 버튼, 변경 이력. 계정 메뉴의 업데이트 확인은 이곳으로 옮김\n- 업데이트 자동 확인을 앱 시작 때 1번에서 1시간마다로 변경. 앱을 켜 둔 채로도 새 버전을 받음. 확인에 실패하면 30분 뒤 다시 확인\n- 새 버전을 다 내려받으면 알림을 한 번 띄움\n- 변경 이력 창 기본 폭을 1.5배로 넓히고 창 크기를 조절할 수 있게 함",
+  "pub_date": "2026-10-26T09:28:20.827Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjV2K29JVGpvaUV0czlzUUtBc2txdFEvUlpIQUoxSXFuMTlzRTVDRVhiYjF2ai9KRnV5aEM3NHBhNHRUWU1aNVpxSXBoSjVsWndKMnhSR3VDaFRuaGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDAxNzczCWZpbGU6QWdlbnRMaW5rXzEuMTEuMV94NjQtc2V0dXAuZXhlCmFxSDZGaVpGTmJUbDNCVSt5MWNhY0d1cWdrTENnMU5OVnUvZTlpcE55c2kwbU1seVhSemZiZEt1K21lVU5paytWcEFxekNXUlVoVDZmYVdSbEJla0JBPT0K",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.1/AgentLink_1.11.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjdPRC9uWDZzUmZrczIwK2p5UXpWckZaSFZrTkhyK3FYYUh0dWxVQzVTU1AwLzlacDhiT1ZNbWorTWoyb3g5eEZTNEtocFlXL0NEYTRJcDV5aW1laGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDA2ODk0CWZpbGU6QWdlbnRMaW5rXzEuMTEuMl94NjQtc2V0dXAuZXhlCkxyc3pkajJwdzc4ZTh4TjJxaTlVVG5NVmk0MHJBdWJNUzRpeDByYWZlelFLZzlGOTZVYURWVkJCYVNxaFk4V1NTam5qeDJLR2NnWXp6RDFLVXFuNkFRPT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.2/AgentLink_1.11.2_x64-setup.exe"
     }
   }
 }
