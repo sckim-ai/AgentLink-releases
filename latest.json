@@ -1,11 +1,11 @@
 {
-  "version": "1.11.2",
-  "notes": "- 창 상단 버전 옆에 업데이트 상태 표시 — 최신이면 체크, 확인 중·확인 실패도 아이콘으로 보임\n- 버전을 누르면 업데이트 창이 열림 — 마지막 확인 시각, 업데이트 확인 버튼, 변경 이력. 계정 메뉴의 업데이트 확인은 이곳으로 옮김\n- 업데이트 자동 확인을 앱 시작 때 1번에서 1시간마다로 변경. 앱을 켜 둔 채로도 새 버전을 받음. 확인에 실패하면 30분 뒤 다시 확인\n- 새 버전을 다 내려받으면 알림을 한 번 띄움\n- 변경 이력 창 기본 폭을 1.5배로 넓히고 창 크기를 조절할 수 있게 함",
-  "pub_date": "2026-10-26T09:28:20.827Z",
+  "version": "1.11.3",
+  "notes": "- 서재 검색: 규격 번호(예: ISO 6336-1)로 찾으면 파일 이름이 맞는 문서를 결과 맨 앞에 표시\n- 서재 검색 색인 전체 재구축 시간 단축 — 측정 사본 기준 HDD 356 → 159 s, SSD 281 → 192 s, 검색 결과 동일\n- 서재 시작 작업(스캔·색인)을 서재를 처음 쓸 때 시작\n- 원문자 숫자(①②…)가 든 파일 이름이 잘못 정렬되던 문제 수정\n- 업데이트 후 서재 컬렉션마다 검색 색인을 한 번 다시 만든다 — 그동안 검색은 이전 색인으로 되고 \"색인 중\" 경고가 붙음. 규격 번호 맨 앞 표시는 재구축이 끝난 뒤 적용",
+  "pub_date": "2026-10-27T09:55:46.300Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjdPRC9uWDZzUmZrczIwK2p5UXpWckZaSFZrTkhyK3FYYUh0dWxVQzVTU1AwLzlacDhiT1ZNbWorTWoyb3g5eEZTNEtocFlXL0NEYTRJcDV5aW1laGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDA2ODk0CWZpbGU6QWdlbnRMaW5rXzEuMTEuMl94NjQtc2V0dXAuZXhlCkxyc3pkajJwdzc4ZTh4TjJxaTlVVG5NVmk0MHJBdWJNUzRpeDByYWZlelFLZzlGOTZVYURWVkJCYVNxaFk4V1NTam5qeDJLR2NnWXp6RDFLVXFuNkFRPT0K",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.2/AgentLink_1.11.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjdVY0lKTFRKZ0RXNEFHTGJ6NkpCUjJYbHdnL3ZCc2ttQkN0V1gzSXpyZ0IrY3M3ZVJ1cmxqcnJTLzRvL2Q4dkNyejQ4czJOTk13YnBvajZqb0FuOUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDk0OTM4CWZpbGU6QWdlbnRMaW5rXzEuMTEuM194NjQtc2V0dXAuZXhlClBNRGFaeXNxeG15WXlTOTVpb2RNZ09pOE1sa1pHOUZ3U1pSOGFhdEovOUpCdENvQU9kWW5WU3ZwRnQ2MHFkb0M0ZjhIQ3ZxMXpOQXo5UDBKUlRzV0FBPT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.3/AgentLink_1.11.3_x64-setup.exe"
     }
   }
 }
