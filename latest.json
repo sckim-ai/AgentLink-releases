@@ -1,11 +1,11 @@
 {
-  "version": "1.11.4",
-  "notes": "- 모델 추가 — GPT-6.1 Terra\n- Git 작업마다 콘솔 창이 떴다 사라지고 화면이 잠시 멈추던 문제 수정\n- 빌더의 참가자·위임 대상 후보 목록에서 엣지로 이미 연결된 노드를 제외 — 이미 선택된 노드는 \"엣지 연결됨\"으로 표시해 해제할 수 있음",
-  "pub_date": "2026-10-28T09:22:55.906Z",
+  "version": "1.11.5",
+  "notes": "- 설계 카드·Design 탭·대시보드를 프로젝트 없이 에이전트 단위로도 사용\n- 도크·대시보드에서 설계 카드 삭제, 타이틀바 스위치로 카드 도크 표시·숨김\n- Windows 탐색기와 파일 복사·붙여넣기 연동\n- 설정 창 메뉴를 묶음으로 정리하고 앱 설정을 별도 화면으로 분리. LLM 제공자는 등록됨·미등록으로 나눠 접기\n- 모델 추가 — Google 신규 모델, GPT-6.1 Terra 도구 호출 지원\n- 긴 응답이 한 번에 도착하면 응답 시작 지점에서 스크롤이 멈춤\n- 채팅의 폴더·문서 경로도 링크로 표시, 도구 호출 행에 함수 이름·인자·오류 문구 표시\n- 모니터 지도에서 고정을 푼 유휴 카드가 자리를 지킨 채 서서히 사라짐\n- screen-demo-video 스킬에 녹화 여러 개를 장 단위로 잇는 편집 모드 추가\n- 에이전트가 PowerPoint 슬라이드를 구조와 렌더 이미지로 함께 읽는 도구 추가. 렌더에는 PowerPoint 설치 필요\n- 에이전트가 Word·Excel·PowerPoint·HWP 문서를 파일 읽기 도구로 바로 텍스트로 읽음\n- MechNode 장기 계산이 모두 600 s 시간 초과로 끝나던 문제 수정\n- 실행 중 보낸 메시지의 /call:·스킬·@파일이 첫 메시지와 다르게 처리되던 문제 수정\n- 프로젝트 폴더가 없으면 실행·세션 생성을 거부하고 사유를 표시\n- 로그인 만료 계정 판정 오류, 새 설치본에서 회의 메모 요약 모델 목록이 비던 문제 수정\n- 복사한 경로를 큰따옴표로 감싸 공백이 든 경로도 그대로 붙여넣기 가능\n- 오픈소스 고지 화면 — 절 목록·검색, 긴 문서도 빠르게 표시",
+  "pub_date": "2026-11-05T02:42:43.595Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjFRRE5LUDBmU3g4cTFka1FHTUVLYjdnQ2VEYWxCeXVwSGIvVlFueEZ1VTg5QWhNN1B6b1UrdDhNY2pYbWFScDlIWFkwVGhXYU55VXZ1ZHBtOVhncUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMTc5MzY4CWZpbGU6QWdlbnRMaW5rXzEuMTEuNF94NjQtc2V0dXAuZXhlCldYM1ZwaXB4NkxaVHc5UERNZWx3RlhhOWxWbThXZlEvQ0hXM05POUR3c3F0RHhPRWJ2cDhEVW1EL002Q2E3ZWNEOGlxazJNdmhBaXJVRzU1bDE0VkNnPT0K",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.4/AgentLink_1.11.4_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjVySkpQR2JrRmlBK0RWclNja1lkWk0xaDVBL0xUdzBGdkxITWpTbGZLYjE5U3dMZW5KM2xiYi8wK3lweWdOdFVLU1dVQ3lOMXY2WEp2d0xMdUY1Y0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzODQ2NTQ2CWZpbGU6QWdlbnRMaW5rXzEuMTEuNV94NjQtc2V0dXAuZXhlCi9sUExRV3FsY3ltdWxsbzRvQ3BXVnRZeER4dTNIdU1QMjQrTnVDSGNPOVNoMmNsNnNSQjFZNkhqVi9CN0lLaDRUZTFTc0VXTS9saW1oL0RGVzQ3NkJRPT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.5/AgentLink_1.11.5_x64-setup.exe"
     }
   }
 }
