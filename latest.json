@@ -1,11 +1,11 @@
 {
-  "version": "1.11.8",
-  "notes": "- 터미널·VS Code에서 실행한 Claude Code·Codex 세션을 채팅으로 가져오기. 채팅 목록의 새 채팅 옆 가져오기 버튼, 선택한 프로젝트 폴더의 세션 목록과 마지막 대화 미리보기\n- 가져온 채팅은 이전 대화와 도구 실행 기록을 바로 표시. 다음 메시지부터 현재 에이전트가 이어서 작업\n- Claude 세션을 Claude 에이전트로 이어받으면 원래 대화를 복제해 맥락을 그대로 이어감. 원본 세션 기록은 바뀌지 않음\n- 그 밖의 에이전트(Codex·LLM 등)는 이전 대화를 전달받아 이어감. 긴 대화는 앞부분을 요약해 전달\n- 이어받기에 실패하면 사유를 채팅에 표시하고 기록 전달로 이어감\n- 채팅 목록을 둥근 박스 선택과 날짜 구역(고정됨·오늘·어제·이전 7일·이전)으로 변경\n- 사이드바 선택 행 색을 무채색 고대비로 변경. 다크 테마에서 선택 행이 마우스 올림 행보다 흐리게 보이던 문제 수정\n- 터미널이 메인 화면을 가리지 않고 공간을 나눠 표시(아래·왼쪽·오른쪽). 터미널 탭을 프로젝트별로 구분",
-  "pub_date": "2026-11-06T06:45:21.573Z",
+  "version": "1.11.9",
+  "notes": "- 3D 모델 뷰어 추가. STEP·IGES·BREP와 STL·OBJ·PLY·3MF·glTF·GLB·VRML·DAE·FBX·3DS 파일을 아티팩트 창에서 열어 회전·이동·확대\n- 3D 뷰어에 시점 버튼(정면·윗면·옆면·등각), 원근·직교 전환, 축 방향 단면(슬라이더) 추가\n- 3D 뷰어 부품 트리: 부품 숨기기·이것만 보기·모두 보이기·이름 검색. 트리와 화면 선택이 서로 연동되고 선택 부품은 두 색 윤곽으로 표시\n- 큰 OBJ·PLY·STL·VRML·3MF 파일은 별도 스레드에서 읽어 여는 동안 화면이 멈추지 않음\n- 원본 CAD 파일(SolidWorks·CATIA·NX·Creo·Solid Edge·Parasolid·ACIS·JT)은 STEP으로 내보내 여는 방법을 카드로 안내\n- CAD 헬퍼 v2: inspect_cad가 IGES·BREP도 읽음\n- DWG·DXF 도면 뷰어 추가. 파일을 누르면 아티팩트 창에서 도면을 열고 확대·이동, 레이아웃(시트) 전환\n- 도면 뷰어 거리 측정. 끝점·중심·중점 스냅, 시트 뷰포트 안에서는 축척을 환산. 우클릭·Esc로 측정 종료\n- 큰 도면은 예상 시간·메모리를 안내 카드로 먼저 표시\n- MINSERT 블록이 그려지지 않던 문제, 기울어진 블록 삽입이 다른 위치에 그려지던 문제 수정\n- 닫은 도면·3D 모델이 메모리에 남던 문제 수정\n- inspect_cad가 DWG를 읽음. 코드 페이지 선언과 다른 한글 DWG도 읽음\n- 채팅에 DWG를 첨부하면 inspect_cad로 읽도록 안내. 지시 없는 CAD 첨부는 무엇을 할지 먼저 질문\n- 실행 중에 보낸 메시지를 점선 카드로 구분하고 대화 기록에 남김. 보낸 메시지가 진행 중인 작업을 대체하지 않음\n- 사용자 메시지를 둥근 카드로 표시\n- 명령 실행 도구의 600초 시간 상한 제거. 시간 상한을 넘긴 명령과 60초를 넘긴 서브에이전트 위임은 끊지 않고 백그라운드로 전환\n- 채팅의 MCP 도구 행에 서버 이름과 플러그 아이콘 표시\n- MCP 서버가 시작 직후 종료되던 문제 수정\n- 8000 px를 넘는 이미지를 대화에 싣지 않음(요청 실패 방지)\n- 웹 페이지 읽기에서 응답 헤더가 큰 사이트를 읽지 못하던 문제 수정\n- 동시에 여러 요청이 로그인 토큰을 갱신할 때 로그인이 풀리던 문제 수정\n- 채팅 휠 스크롤이 튀던 문제 수정\n- 앱이 수 초씩 멈추던 문제 2건 수정(연결 생성 지연, 큰 파일 저장 지연)\n- 토큰 사용 기록의 같은 본문을 한 번만 저장해 디스크 사용량 감소",
+  "pub_date": "2026-11-08T16:50:06.349Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjZtc2hpYjZIUjlLRlcrTjcrd2ljREJYeG9LQkV1alc5LzBvaGdwQ2t1RFc5YTI0b0liWGZESnhESXRFY3luS2U5SmY0WWJWWlIxbW5BcE1WT2NrTmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTQ3NTA4CWZpbGU6QWdlbnRMaW5rXzEuMTEuOF94NjQtc2V0dXAuZXhlCjc1aDY4OGFERldCeExCL2dyYVJpNmR2YkttU0FtVkd2YzA3MTNRMmlaREUwRjBFUjhSWUp4alN6Q2dNVTkyQy9qSmxVeVBhaWVtb0F6OUsrSjJDK0RRPT0K",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.8/AgentLink_1.11.8_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjh6SUJtZFZBelZCR21wRTVpNWdWSjBTdWE3SGJKVkwzOGxxdkFQWUQrcWlSdlRPSUEvdmJrL1oyWCtRL2hRbmNxOUJsb0Z3UGw2ZldkZGF0VHZMVkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTU2NTk3CWZpbGU6QWdlbnRMaW5rXzEuMTEuOV94NjQtc2V0dXAuZXhlClBObElZOFVUVFhxMVJKc2RLZE8rTEoxNFh3NEIweklmZ2NQTW9VbG5xRHltaXNHdEt6Vnh3T2FBMmVzdHBzMHhnRHpGUmtaN3l5dDBac3RXbFVLeUJ3PT0K",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.9/AgentLink_1.11.9_x64-setup.exe"
     }
   }
 }
