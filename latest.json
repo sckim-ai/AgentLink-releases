@@ -1,11 +1,11 @@
 {
-  "version": "1.11.10",
-  "notes": "- Claude Fable 5.2 모델 추가(1M 컨텍스트, 100만 토큰당 입력 $8 · 출력 $40). CLI 에이전트 노드의 Fable 항목도 Fable 5.2로 표시\n- CLI 에이전트 노드(claude)의 첫 대화에서 claude에 연결해 둔 MCP 서버 도구를 쓰지 못하던 문제 수정. 첫 대화 시작이 약 5초 늘어남\n- CLI 에이전트 노드(Codex)에서 실패하거나 승인을 거부한 명령이 성공으로 표시되던 문제 수정",
-  "pub_date": "2026-11-10T13:01:15.721Z",
+  "version": "1.11.11",
+  "notes": "- 음성 입력에 \"이 컴퓨터\" 엔진 추가. Whisper Large v3 Turbo·SenseVoice 모델을 내려받아 음성을 밖으로 보내지 않고 받아쓰기. GPU가 없거나 GPU가 멈추면 CPU로 처리. 이 컴퓨터를 고르면 클라우드로 넘기지 않음\n- 채팅 작업판: 세션을 최대 4칸으로 나눠 보기, 칸별 끌어 놓기, 배치 복원\n- 세션 사이드바: 모든 프로젝트의 세션 목록과 제목 검색, 프로젝트·에이전트별 묶음, 상태 표시, 보기 메뉴\n- 프로젝트 아이콘·색 지정\n- CLI 에이전트 노드(claude·Codex) 실행 중에 보낸 메시지를 진행 중인 턴에 전달\n- 채팅의 Mermaid 코드 블록을 다이어그램으로 표시\n- 연속 도구 호출을 접힌 한 줄로 표시. 찾기 중에는 펼침\n- 3D 뷰어: 제약 없는 360° 회전, 어두운 면 없는 조명, 모서리 표시, 단면 칠·외곽선 색 설정, 여는 중 진행 표시, 맞춤 시 가장 가까운 좌표 평면으로 정렬 + 좌표 삼각대, Esc로 선택 해제\n- 도면 뷰어: 측정 결과를 커서 옆 라벨로 표시, 레이아웃 콤보박스, Esc로 선택 해제, 여는 중 진행 표시\n- STEP 해석 기본 켜짐. 첫 실행 때 자동으로 내려받음\n- 정지할 때 대기 중이던 사용자 메시지가 대화 기록에서 사라지던 문제 수정\n- CLI 에이전트 노드(claude)가 응답 전에 종료되면 보낸 메시지가 사라지던 문제 수정",
+  "pub_date": "2026-11-13T05:25:50.086Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjNFZFZmV1dwNE4xN2lNM1YvMXMzUkl1MlBxMHpialE1b0t3dERFenpleWMxZlMwSzU1WHBUM0NPcWJEMW1mWURZVFU3TTBzUnZtcnYwYUkyRm4rYlFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MzE1NjY5CWZpbGU6QWdlbnRMaW5rXzEuMTEuMTBfeDY0LXNldHVwLmV4ZQpVRHhXcjR1L3NjZkNhWHk1MVc5VUowaXZHbi9SQmgrWmRBUXRVK1oyQmMvcnpWZHcydlQ5NndqZ1lPVy9NSkZ0S1RnaUQ4WXMzYjc4UVpXamxUb2pEZz09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.10/AgentLink_1.11.10_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjlFZ29NS1ZQS2QwVGRrMGVpUFZ6MXNuYnN3OFkzcG10bW5FZ1FDUm9YYU5aNUpYbWliZG1SRnN4WmpNZG83ZisrYWNaOWlBQjRueG9PM29QVmxtVmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NTQ3NTM2CWZpbGU6QWdlbnRMaW5rXzEuMTEuMTFfeDY0LXNldHVwLmV4ZQprNmNrMEZFRHhuQllsSk5LSHAxNEtXaDJqeE01RVh5ZmExTHEySktoOGJ0RDVoZk04VzQwd1VKVGtZU3JPbFlwZmtLbnBNZEZuTlhMZkdBRVR6YytBQT09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.11/AgentLink_1.11.11_x64-setup.exe"
     }
   }
 }
