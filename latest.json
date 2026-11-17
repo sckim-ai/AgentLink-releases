@@ -1,11 +1,11 @@
 {
-  "version": "1.11.15",
-  "notes": "- 도면 뷰어 측정에 단위 선택 추가. 도면의 단위 정보가 틀려 측정값이 실제와 어긋날 때 원본 단위(mm·cm·m·inch·ft)를 직접 골라 바로잡는다. 선택은 파일별로 저장되고, 결과는 항상 mm로 표시한다",
-  "pub_date": "2026-11-17T02:07:58.596Z",
+  "version": "1.11.16",
+  "notes": "- 한글 문서(HWP·HWPX) 미리보기를 원본 조판 뷰어로 교체. 용지·여백·표·그림을 원본 배치대로 보이고 쪽 경계와 쪽 번호 표시. 읽기 전용\n- 에이전트가 한글 문서의 본문·표를 직접 읽고 쪽 이미지를 확인하는 도구 추가\n- 문서 뷰어의 50 MiB 파일 크기 제한 제거\n- 엑셀 뷰어 표시 수정. 병합 셀의 테두리·채움, 글자별 서식, 셀에 맞춘 글자 축소를 원본대로 보이고 내장 그림(PNG·JPEG·GIF, 도장 포함)을 표시\n- 마크다운 문서의 상대경로 이미지가 깨진 아이콘으로 보이던 문제 수정. 문서가 있는 폴더 기준으로 읽는다\n- LLM 노드의 MCP 도구 이름을 mcp__서버__도구 형식으로 변경. 서로 다른 서버의 이름이 같은 도구를 구분한다. 서버 이름을 바꾸면 도구 이름도 바로 바뀐다. 프롬프트·훅에 도구 이름을 적어 두었으면 새 이름으로 고쳐야 한다\n- 프롬프트 프리뷰의 MCP 도구 이름과 로딩 방식을 실제 실행과 같게 표시\n- 등록된 프로젝트의 이름과 경로를 에이전트가 조회하는 도구 추가. 다른 프로젝트의 파일을 참고할 때 쓴다. CLI 에이전트 노드는 도구 탭에서 Workspace를 켜면 사용\n- Workspace 도구별 Mode 설정이 적용되지 않던 문제 수정\n- CLI 에이전트 노드의 MCP 도구가 이름이 같은 다른 도구의 \"이 도구 자동 승인\"으로 승인 없이 실행되던 문제 수정\n- 백그라운드 위임을 기다리는 동안 대화에 \"실행 중\" 문장이 반복해 쌓이던 문제 수정. 위임에 10분간 기록이 없거나 도구 오류가 3회 이어질 때만 에이전트에 알림\n- 채팅 Working 줄에 실행 중인 위임의 이름과 마지막 기록 후 경과 시간 표시\n- 빈 대화 시작 화면 변경. 입력창을 가운데에 두고 작업 폴더와 스킬 칩을 표시. 칩을 누르면 스킬 명령이 입력된다\n- 타이틀바 설계 버튼(Ctrl+5)을 설계 표시 켜기·끄기 스위치로 변경. 켠 동안만 채팅 위 설계 칩과 설계 현황 탭이 보인다\n- 응답 스트리밍 중 화면이 맨 아래를 따라가지 않거나 위로 밀리던 문제 수정\n- Gemini 모델이 이름이 긴 도구를 한 응답에서 두 번 호출하면 둘째 결과 파일이 첫 결과를 덮어쓰던 문제 수정",
+  "pub_date": "2026-11-17T13:09:10.801Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFci9EV2hIZUVIaW9WQkxMU1Z3Nk9qTFhzbG5mbmZqSmI3SFplVUc3R3pWaXRNL29EYzlmNDFZM3V5dGptbXcxdXk1TUtYVG1ZWXQ2c2pLcE41Mi9Fa1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgxMjYzCWZpbGU6QWdlbnRMaW5rXzEuMTEuMTVfeDY0LXNldHVwLmV4ZQpxU0hCMWVQTnRHVE5sU1h3MXU1aHV1cUZmSXJLQUZGVmJnZnoyaDFCWlZjWjA3VFI5REJqNVdDekNNU3ZVSVJkM0IxeHNjMkRZZ3hteEw3VUFMa2JCQT09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.15/AgentLink_1.11.15_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjFjK1k0aE9sVDAyTTdtL1BiNTRERmFuUTNOVXc2VEUrTkliVGJxalRPaVBQdHVHZk5zc3ZsVGxyQ1FCR1paQXpOYnluYk02bWVJVUNYb0paUGt4dVFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTIwOTQ0CWZpbGU6QWdlbnRMaW5rXzEuMTEuMTZfeDY0LXNldHVwLmV4ZQorZmtQcmVZaUREdG82ajVaSzBtdWRSaGVYS2pNR3hWMDE4QVR0UjViOXptRGdGT2JjYWxGcDdhOUo1OFJGV3Z1dVJSQUhQZklNV2Q4MmowdXpsV2NCdz09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.16/AgentLink_1.11.16_x64-setup.exe"
     }
   }
 }
