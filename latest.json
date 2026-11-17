@@ -1,11 +1,11 @@
 {
-  "version": "1.11.14",
-  "notes": "- Antigravity CLI 에이전트 추가: 사이드바 번들 에이전트, 프로필 연결 행, 사용 모델 표시\n- 하단 사용량 바에 CLI 계정별 구독 사용량과 Google 구독 등급 표시. 순서는 Claude·Codex·Google·Grok로 고정\n- 번들 CLI 에이전트가 사용자 입력을 그대로 CLI에 전달. 매 턴 덧붙던 지침문 제거\n- PPTX·DOCX·XLSX 파일을 채팅 미리보기에서 읽기 전용으로 열기. PPTX는 연속 스크롤과 원본 글꼴 검색 지원\n- 공백·한글이 든 Office 파일 경로 링크가 열리지 않던 문제 수정\n- 칸반 리포트를 에이전트가 직접 제출·조회하는 도구 추가. 리포트에 임의 파일 첨부 가능\n- 칸반 도구용 로그인 토큰을 만료 전에 자동 갱신\n- 챗봇 에이전트 이름을 Link로 변경\n- 설치되지 않은 하위 에이전트를 호출 도구·목록에서 제외. 호출 시 실패하던 문제 수정\n- 앱 실행 중 등록한 MCP 서버(예: Supabase)의 키 입력 칸이 프로필 > 서비스에 재시작 전까지 나오지 않던 문제 수정\n- 3D 모델 뷰어: 같은 곡면의 면 사이 경계선 제거(볼베어링 볼 등), 구 극점 부근 음영 반전 수정\n- Google API 키를 URL 대신 요청 헤더로 전송. Google 연결 안내 문구 정정",
-  "pub_date": "2026-11-16T12:06:46.279Z",
+  "version": "1.11.15",
+  "notes": "- 도면 뷰어 측정에 단위 선택 추가. 도면의 단위 정보가 틀려 측정값이 실제와 어긋날 때 원본 단위(mm·cm·m·inch·ft)를 직접 골라 바로잡는다. 선택은 파일별로 저장되고, 결과는 항상 mm로 표시한다",
+  "pub_date": "2026-11-17T02:07:58.596Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjc4bUZkdHpTY0ljSTZnZnJ2YjVUZHplTHJ4dEtlZGVoeGVzbFdzMnJGTXgvSnQ0OUV1cW1iNEI3TW05OFNIa3gwMlNiWUFoaWVMYnVMbDZPeldCSkFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODMwNzk3CWZpbGU6QWdlbnRMaW5rXzEuMTEuMTRfeDY0LXNldHVwLmV4ZQpvSitvWlg2VEQxdytvaDcrVWp6dTA0c1ZFLzNmaTdBa1VXb3ZoMitJenplRlUxRHA1RnZ5WmE5ZEg1VE5KVzVvM0tZMWFKZExQdTREU1Q4RGVFYVlEQT09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.14/AgentLink_1.11.14_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFci9EV2hIZUVIaW9WQkxMU1Z3Nk9qTFhzbG5mbmZqSmI3SFplVUc3R3pWaXRNL29EYzlmNDFZM3V5dGptbXcxdXk1TUtYVG1ZWXQ2c2pLcE41Mi9Fa1EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0ODgxMjYzCWZpbGU6QWdlbnRMaW5rXzEuMTEuMTVfeDY0LXNldHVwLmV4ZQpxU0hCMWVQTnRHVE5sU1h3MXU1aHV1cUZmSXJLQUZGVmJnZnoyaDFCWlZjWjA3VFI5REJqNVdDekNNU3ZVSVJkM0IxeHNjMkRZZ3hteEw3VUFMa2JCQT09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.15/AgentLink_1.11.15_x64-setup.exe"
     }
   }
 }
