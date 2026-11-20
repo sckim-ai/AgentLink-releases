@@ -1,11 +1,11 @@
 {
-  "version": "1.11.17",
-  "notes": "- OpenAI 신규 모델 GPT-6.2 Astra, GPT-6.2 Sol 추가. 컨텍스트 105만 토큰, 최대 출력 12.8만 토큰. 추론 단계는 low부터 max까지 선택",
-  "pub_date": "2026-11-17T22:42:17.359Z",
+  "version": "1.11.18",
+  "notes": "- Link·Deep Research·Coding Agent에 전용 아이콘 적용\n- Coding Agent 기본 모델을 GPT-6.2 Astra(추론 high)로, 검토 모델을 Claude Fable 5.2로 변경. Deep Research Agent의 검토 모델을 GPT-6.2 Sol로 변경. 두 에이전트에 매뉴얼 조회 도구 추가\n- 사이드바 에이전트 목록에 폴더 도입. Primary/Sub 탭 제거, 목록 배치 옵션 추가. 가져오기·휴지통은 더보기 메뉴로 이동\n- 서브에이전트 협의 범용화. 빌더 Sub-Agent 탭에 협의 스위치·관점 입력·후보 명단 추가. 저장된 에이전트가 발언자로 참여해 라운드를 이어간다\n- 협의 카드에 한글 라벨·출처·이견·충돌·실패 표시 추가. 협의 실패가 메인 에이전트에 전달되지 않던 문제 수정\n- 실행 중인 서브에이전트에 메시지를 직접 전달. 입력창에서 수신자를 고른다\n- 실행 중 보낸 메시지가 응답 없이 넘어가던 문제 수정. 최종 답을 쓰는 동안 보낸 메시지도 그 답 뒤에 이어서 처리한다\n- 메인 에이전트에게 보낸 메시지를 협의 참여자가 대신 받던 문제 수정\n- 작업판(전체)에서 파일 경로를 누르면 작업판에 머문 채 오른쪽에 미리보기를 연다. 이전에는 현재 범위로 바뀌었다\n- 마크다운 미리보기 스크롤바가 마우스 위치와 어긋나던 문제 수정\n- 마크다운 PDF 변환에서 문서에 연결된 이미지가 빠지던 문제 수정. 코드 블록 이중 상자, 한글 단어 중간 줄바꿈, 인용문 기울임 수정\n- 본문의 한글 파일명과 공백이 있는 이미지·코드 절대경로가 중간에서 잘려 링크되던 문제 수정\n- 큰 도구 결과 뒤 대화 압축에서 요약과 진행 중인 요청이 사라지던 문제 수정\n- 채팅 승인 카드를 타임라인과 이어지는 작은 카드로 변경\n- 한글·PPTX·XLSX 미리보기를 여는 동안 화면이 멈추거나 입력이 늦던 문제 완화\n- 서브에이전트가 이름 대신 id로 표시되던 문제 수정. 서브에이전트 모델 지정이 적용되지 않던 문제 수정\n- 이어서 작업한 세션이 목록의 오늘 구역으로 올라오지 않던 문제 수정. 전체 탭 세션 행에 사람 대기 표시 추가\n- 번들 에이전트 이름이 바뀌던 문제 수정",
+  "pub_date": "2026-11-20T03:19:13.877Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnlYS3NKRUVIcmpnR0hBcktuTzNFNHh0dDhmRERPWjMyYUpPaEFSMXJvUENRK3lFZWRJWlhXcTFHV1ZMMWVsOUZ4clJMclVuRDJRR0JDS25nYU53UEFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0OTU1MzMwCWZpbGU6QWdlbnRMaW5rXzEuMTEuMTdfeDY0LXNldHVwLmV4ZQo4czArM3pCaUk3cXpyT25IakY0S0hDbEVCSk9Gd1JBMkhNOGtJMkpiY21NVzRhMjJRWmNKbmo0ejZkbnpWSm5pTCtVZ0FERjkwR253OGJoVkZVdWxCQT09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.17/AgentLink_1.11.17_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcno3UDRZZUM3VUdvaXRQc0VMbS9KSUt0clVFNHFLZXhFOXFvY3pRM1lnOUVXTHhLVEtSbzFxd0N1bHA1MmNJV3JKYUxiUmhtd0NzMFJReDhQVzJ6N1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTQ0NzQ2CWZpbGU6QWdlbnRMaW5rXzEuMTEuMThfeDY0LXNldHVwLmV4ZQowUW1yam9SZk82THBCUWJQcWd0ZnRmMnZkSU5ISm5zZVhEZEFSWklSYzREbnA1WlF6OXFIUHl3UDRCNVc5TnBBYU1jRG9YTEM4Y2xjdnlMbHN5MU9EQT09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.18/AgentLink_1.11.18_x64-setup.exe"
     }
   }
 }
