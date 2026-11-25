@@ -1,11 +1,11 @@
 {
-  "version": "1.11.20",
-  "notes": "- 휴대폰 연결 추가. 설정의 모바일 연결 화면에서 Tailscale 설치·로그인을 진행하고 QR로 휴대폰을 등록한다. 연결 순서 5단계와 완료 여부를 표시\n- 휴대폰 화면 추가. 받은함·실행 탭에서 승인에 답하고, 세션 탭에서 대화를 보고 보내고 질문에 답한다. 메모 탭에서 회의를 녹음하고, 입력창에 받아쓰기로 글을 넣는다\n- 휴대폰 화면을 앱으로 설치(Android 설치 창, iPhone 홈 화면에 추가). 뒤로가기는 상위 화면으로 이동하고 최상위에서는 종료를 확인한다\n- PC의 AgentLink가 꺼져 있으면 휴대폰에 원인과 조치를 표시. 연결이 끊겨도 마지막 화면을 보여준다\n- 받아쓰기 중 말하는 내용을 입력창 아래에 바로 표시. 실시간 변환이 안 되면 녹음 전체를 변환한다\n- iPhone에서 녹음한 회의(mp4)를 회의록으로 받는다\n- 기본 에이전트는 삭제 대신 목록에서 숨긴다. 헤더 더보기 메뉴에서 다시 보인다\n- 관리자 접속 통계의 사용자 표를 열 머리글로 정렬\n- Codex Desktop에서 폴더를 옮긴 대화를 가져오기 목록에 표시\n- 수정: 전체 범위 모니터에서 지도의 세션을 눌러도 대화가 열리지 않던 문제\n- 수정: 답변의 범위 표기 물결표(~)가 사라지던 문제, 자동 링크가 짝 없는 닫는 괄호까지 포함하던 문제\n- 수정: Windows 애니메이션 효과를 끈 PC에서 Working 표시가 멈춰 보이던 문제\n- Coding Agent 지침 보강. 파일 수에 비례하는 작업은 실제 규모로 시간을 재고, CLI판 지침을 기본판과 같은 내용으로 맞춘다",
-  "pub_date": "2026-11-25T07:58:53.881Z",
+  "version": "1.11.21",
+  "notes": "- 휴대폰 세션 탭에서 새 세션을 연다. 프로젝트·에이전트를 고르고 첫 메시지를 입력하거나 받아쓰기로 넣는다",
+  "pub_date": "2026-11-25T08:16:02.421Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjZuRmdwYmprSFJXZExkS2IzZEdlMEh6MXV5WFd4N0pId1BWWFF4ZFRkZy8yY25Nb3BMLzVqTkZOSkxGUXAyTVQxZVFWbTAyR2JxOEYyK21POStGY0FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTkzNTIzCWZpbGU6QWdlbnRMaW5rXzEuMTEuMjBfeDY0LXNldHVwLmV4ZQptb2g4RldGQ3pEdzBCbnh1bGMxdXhSVjI2YU9zT3BzenpaNTZFZXF1cEpZQ0RRUUZmWXYrOG5NS2ZrME1VU0JXSjlyUzczQlFjS3N6dzAxcU1KSnlBQT09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.20/AgentLink_1.11.20_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjRLZTdxdlpaZkFPeHVWVHN6Q05iL0kwcHluell6d2RVY0JGdFVBUTh6TktVSUtRMHBrbzNqK2FqWTFiZXloNTVFaFVMVFJFK1Z5NFJydW5FenB4V0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NTk0NTU0CWZpbGU6QWdlbnRMaW5rXzEuMTEuMjFfeDY0LXNldHVwLmV4ZQpmUGRaMlZQcG9Gd2hyVjArUzdjMjJWVHRwa01uSzJBQVowRElzMFQ5TWhxZ0VtWGIzcE1URDNJUU5NTVpOQldaVnZ0ZTBFYlpnKzRZSGk4V2MxYmlCZz09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.21/AgentLink_1.11.21_x64-setup.exe"
     }
   }
 }
