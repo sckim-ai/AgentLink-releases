@@ -1,11 +1,11 @@
 {
-  "version": "1.11.22",
-  "notes": "- 휴대폰 대화 화면이 실행 진행을 바로 보인다. 보낸 메시지가 즉시 나타나고, 도구별 진행·완료와 작업 중 경과 시간을 라이브로 표시한다\n- 휴대폰 대화의 도구 호출을 대화 순서대로 묶어 보인다. 긴 세션은 최근 메시지부터 그려 빨리 열린다\n- 휴대폰 대화 화면 정리. 넓은 표는 표 안에서만 가로로 움직이고, 내 말풍선은 오른쪽에 글 길이만큼 표시한다. 메시지 간격·글자 크기를 정돈하고 흐린 글자의 대비를 높였다\n- 휴대폰 입력 줄을 한 줄로 줄였다. 마이크·입력창·보내기가 한 줄에 있고 입력창은 글이 길어지면 늘어난다. 대화가 보이는 영역이 넓어진다\n- 설치한 휴대폰 앱을 전체 화면으로 연다. 안드로이드 하단 버튼 줄이 숨고, 뒤로가기는 화면 가장자리 쓸기로 한다\n- 휴대폰에서 보낸 지시가 열어 둔 PC 대화 화면에 새로고침 없이 나타난다\n- 수정: 휴대폰 앱 종료 확인에서 종료를 눌러도 닫히지 않고 뒤로가기를 한 번 더 눌러야 하던 문제(Android). 앱을 열고 바로 뒤로가기를 눌러도 종료 확인이 뜬다\n- 실행 중 화면 응답성 개선. 세션 저장·명령 실행·파일 검색 등을 서버의 응답 처리와 분리해, 긴 작업 중에도 실시간 표시와 세션 열기가 멈추지 않는다\n- 휴대폰 응답을 압축해 보낸다(세션 2.1 MB에서 0.8 MB)",
-  "pub_date": "2026-11-26T01:13:32.923Z",
+  "version": "1.11.23",
+  "notes": "- 휴대폰 대화 화면에 정지 버튼. 실행 중이면 입력 줄 끝에 나타나고 누르면 바로 멈춘다\n- 휴대폰 상단 뒤로 버튼을 꺾쇠 기호로 바꿨다. 대화·새 세션·메모 화면 공통\n- 휴대폰 세션 목록에 상태 점. 승인 대기는 노란 점, 실행 중은 스피너, 끝났고 아직 안 본 세션은 초록 점\n- 토큰 모니터링 개편. 실시간 상태(실행·한도·API 잔액)와 기간 분석(필터·요약·추이 차트·입력 구성·프로젝트별 표)을 나눴다. 과금 방식으로 거를 수 있다\n- 토큰 모니터링 오늘 보기는 시간별(0시~23시) 추이로 보인다\n- 수정: 토큰 모니터링의 날짜 경계가 UTC 기준이라 한국 시간과 9시간 어긋나던 문제",
+  "pub_date": "2026-11-26T09:38:42.681Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcjFSYW5lZ2dKRG5SZDMwNWZ4Y3Q0ZWdTYlVCTGE2NFVmSTFaRlNyODlaeSswcVlrdG53OXBjVmZYYzBYd3Zta1ZlcWwrdThrMHR6U3FNRHI3cE5kamdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NjU1NjA1CWZpbGU6QWdlbnRMaW5rXzEuMTEuMjJfeDY0LXNldHVwLmV4ZQpQbXNxM296aVZobExZNzliVTZBT01aanhuUllidG1qMVREN0tvcTF5WlhUUEdXN1hZOUJLanNOb1BSNzR2Y0tRcUcwSVY5U244cUFQdHl4Q2RzV1JDZz09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.22/AgentLink_1.11.22_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnpTRlJzbHUxUGV5ODdRalFvMjJLdzdSVEQxSEo0QmV5ckhGRXlobnlJWDEycDBWTlVUWVNwMWNHQkt0M0xmeHMrb0l1dUVyT1lvYkRLVkgwcEl5cFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg1OTE1CWZpbGU6QWdlbnRMaW5rXzEuMTEuMjNfeDY0LXNldHVwLmV4ZQpZcnpiY2tiTFVyZjNsVGdJTHZDSE9neEZUdGxrMkszL1ExdmIzWlI0VWlWWEl0L2tDL0FiUW5xeG94dkU4Ny9YcDNJSW5RWWZVeXUyMUJBVGErSzREQT09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.23/AgentLink_1.11.23_x64-setup.exe"
     }
   }
 }
