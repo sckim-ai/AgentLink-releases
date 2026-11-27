@@ -1,11 +1,11 @@
 {
-  "version": "1.11.23",
-  "notes": "- 휴대폰 대화 화면에 정지 버튼. 실행 중이면 입력 줄 끝에 나타나고 누르면 바로 멈춘다\n- 휴대폰 상단 뒤로 버튼을 꺾쇠 기호로 바꿨다. 대화·새 세션·메모 화면 공통\n- 휴대폰 세션 목록에 상태 점. 승인 대기는 노란 점, 실행 중은 스피너, 끝났고 아직 안 본 세션은 초록 점\n- 토큰 모니터링 개편. 실시간 상태(실행·한도·API 잔액)와 기간 분석(필터·요약·추이 차트·입력 구성·프로젝트별 표)을 나눴다. 과금 방식으로 거를 수 있다\n- 토큰 모니터링 오늘 보기는 시간별(0시~23시) 추이로 보인다\n- 수정: 토큰 모니터링의 날짜 경계가 UTC 기준이라 한국 시간과 9시간 어긋나던 문제",
-  "pub_date": "2026-11-26T09:38:42.681Z",
+  "version": "1.11.24",
+  "notes": "- 휴대폰 받은함에 작업 완료·실패 카드. 앱을 닫아 둔 동안 끝난 실행도 보이고, 세션을 열거나 확인을 누르면 사라진다\n- 휴대폰 세션 목록의 점을 PC 기록으로 정한다. 끝났고 안 본 세션은 초록, 실패는 빨강\n- 휴대폰 하단 바 맨 오른쪽에 뒤로 버튼. 뒤로가기 동작과 같고 최상위에서는 종료를 확인한다\n- 휴대폰 하단 바 디자인 변경. 선택한 탭 아이콘 뒤에 옅은 알약 표시, 다섯 칸 같은 폭\n- 휴대폰에서 파일 첨부·사진 촬영을 메시지와 함께 보낸다. 새 세션에서도 고를 수 있다\n- 휴대폰 대화 화면에 승인 카드와 서브에이전트 진행(상태·도는 도구·도구 수·경과)을 보인다\n- 휴대폰 대화의 서브에이전트 답을 위임 자리의 접이식 줄로 묶는다. 본문에 길게 쏟아지지 않는다\n- 휴대폰 실행 탭 맨 위에 계정 한도와 오늘 사용량. 실행 행 첫 줄은 세션 제목이다\n- 휴대폰 세션 목록에 에이전트·프로젝트 이름 줄\n- 받은함 위 Tailscale 안내 카드는 상시 연결 설정 순서를 보인다(Android 항상 켜진 VPN, iPhone VPN On Demand)\n- 설치한 휴대폰 앱에 상태 표시줄과 버튼 줄을 보인다. 버튼 줄 색은 테마를 따른다\n- 도구 줄 요약에 스킬 이름과 내장 도구 인자를 싣는다\n- 수정: 휴대폰에서 만든 새 세션의 제목이 New Chat으로 남던 문제\n- 수정: 새 세션 첫 메시지를 보낸 뒤 나갔다가 다시 열면 첫 메시지를 다시 보내던 문제",
+  "pub_date": "2026-11-27T04:16:01.462Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnpTRlJzbHUxUGV5ODdRalFvMjJLdzdSVEQxSEo0QmV5ckhGRXlobnlJWDEycDBWTlVUWVNwMWNHQkt0M0xmeHMrb0l1dUVyT1lvYkRLVkgwcEl5cFFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1Njg1OTE1CWZpbGU6QWdlbnRMaW5rXzEuMTEuMjNfeDY0LXNldHVwLmV4ZQpZcnpiY2tiTFVyZjNsVGdJTHZDSE9neEZUdGxrMkszL1ExdmIzWlI0VWlWWEl0L2tDL0FiUW5xeG94dkU4Ny9YcDNJSW5RWWZVeXUyMUJBVGErSzREQT09Cg==",
-      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.23/AgentLink_1.11.23_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRMGdlelZGRTNFcnhXY1JEUHpmWFQxM0VDWXAycThrTnBGZWtEKzJ3d0hJaDBsVmlnejVCZjFKQ3cxVm90cVpTcnFDMk1UTlJrcHV0T3VWZW4yTTZaamNNaGZBVVNIYUFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1NzUyOTU0CWZpbGU6QWdlbnRMaW5rXzEuMTEuMjRfeDY0LXNldHVwLmV4ZQpBVGRzYVBhV2NMU3QxdlErMkY1ZmNzK0RNcWZNT2hkQnNLYWE4OHdidTg5Zy9SZStYUXJVVHE0OHh2a1hIQzZpWElSWUdrelNMQVpuOElJYytxSUdEQT09Cg==",
+      "url": "https://github.com/sckim-ai/AgentLink-releases/releases/download/v1.11.24/AgentLink_1.11.24_x64-setup.exe"
     }
   }
 }
